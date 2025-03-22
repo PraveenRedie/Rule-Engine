@@ -5,8 +5,6 @@ A powerful rule engine API for defining, managing, and evaluating business rules
 - **Rule parsing and execution engine**
 - **RESTful API design with FastAPI**
 - **Database integration with SQLAlchemy ORM**
-- **Containerization with Docker**
-- **Automated testing and CI/CD**
 
 ## Features
 
@@ -22,7 +20,6 @@ A powerful rule engine API for defining, managing, and evaluating business rules
 - **FastAPI**: High-performance web framework
 - **SQLAlchemy**: SQL toolkit and ORM
 - **Pydantic**: Data validation and settings management
-- **Docker**: Containerization
 - **GitHub Actions**: CI/CD pipeline
 
 ## API Documentation
@@ -42,7 +39,7 @@ When running, access the interactive API documentation at:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/rule-engine-api.git
+   git clone https://github.com/PraveenRedie/Rule-Engine.git
    cd rule-engine-api
    ```
 
@@ -67,17 +64,6 @@ When running, access the interactive API documentation at:
    uvicorn main:app --reload
    ```
 
-## Docker Deployment
-
-1. Build the Docker image:
-   ```bash
-   docker build -t rule-engine-api .
-   ```
-
-2. Run the container:
-   ```bash
-   docker run -p 8000:8000 rule-engine-api
-   ```
 
 ## Example Usage
 
